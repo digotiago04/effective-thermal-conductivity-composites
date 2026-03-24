@@ -11,8 +11,8 @@ To solve the thermal homogenization problem, this repository implements two dist
 ## 🔬 Implemented Micromechanical Approaches
 
 ### 1. Locally-Exact Homogenization Theory (LEHT)
-The LEHT is a highly accurate **analytical** approach. The method uses Fourier series expansions to construct the fluctuating local thermal fields as exact solutions to the governing differential equations. The LEHT formulation implemented in this repository is based on the concepts presented in: **DOI:** [https://doi.org/10.1016/j.ijheatmasstransfer.2020.119477]
-The main features of this formulation include:
+The LEHT is a highly accurate **analytical** approach. The method uses Fourier series expansions to construct the fluctuating local thermal fields as exact solutions to the governing differential equations. The LEHT formulation implemented in this repository is based on the concepts presented in: **DOI:** [https://doi.org/10.1016/j.ijheatmasstransfer.2020.119477].
+*The main features of this formulation include:
 * **Exact Continuity:** Rigorously satisfies the continuity conditions of temperature and normal heat flux at the fiber-matrix interface.
 * **Periodicity:** Ensures the exact fulfillment of periodic boundary conditions at the limits of the Representative Unit Cell (RUC).
 * **Homogenization:** The effective thermal conductivity matrix is rigorously obtained by integrating the average heat flux across the RUC boundaries.
