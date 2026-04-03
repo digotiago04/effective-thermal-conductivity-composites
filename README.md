@@ -1,10 +1,8 @@
-# Effective Thermal Conductivity of Composites: LEHT and FVT Approaches
+# Effective Thermal Conductivity of Composites
 
-In this repository, MATLAB codes are provided to calculate the effective thermal conductivity of composites. The project encompasses the analytical LEHT (Locally-Exact Homogenization Theory) formulation and the numerical FVT (Finite-Volume Theory), addressing the Mean-Field Theory and Energy Theory perspectives.
+This repository features MATLAB codes developed to compute the effective thermal conductivity of periodic composite materials. The implementations encompass the analytical formulation of the **Locally-Exact Homogenization Theory (LEHT)** and the numerical **Finite-Volume Theory (FVT)**, utilizing both the Mean-Field Theory approach and the energy-based approach.
 
-This repository provides a set of MATLAB scripts developed to determine the effective (macroscopic) thermal conductivity matrix of periodic composite materials. The codes are applicable to composites consisting of a matrix and cylindrical inclusions (fibers) with isotropic properties.
-
-To solve the thermal homogenization problem, this repository implements two distinct and advanced micromechanical approaches: the **Locally-Exact Homogenization Theory (LEHT)** and the **Finite-Volume Theory (FVT)**.
+The models are designed for composites consisting of an isotropic matrix and circular isotropic inclusions, represented through a periodic unit cell. In addition to determining the effective thermal conductivity matrix, the repository provides the visualization of the temperature field and the microscopic temperature profiles along the coordinate directions. Thus, this computational framework constitutes a robust tool for the comparative analysis between analytical and numerical homogenization methods.
 
 ---
 
