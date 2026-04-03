@@ -12,7 +12,7 @@ The implementation of this tool was entirely developed in the MATLAB environment
 ---
 ## 📐 Analytical solution
 
-### 1. Locally-Exact Homogenization Theory (LEHT)
+### Locally-Exact Homogenization Theory (LEHT)
 The Locally-Exact Homogenization Theory (LEHT) is an analytical approach based on the Trefftz concept, in which the local fields are represented by series expansions that satisfy the governing differential equations. The solution is obtained by imposing continuity conditions at the fiber–matrix interface and periodicity conditions on the unit cell. This methodology allows the effective thermal conductivity of materials with inclusions to be determined. The LEHT formulation implemented in this repository is based on the concepts presented in **DOI:** [https://doi.org/10.1016/j.ijheatmasstransfer.2020.119477].
 
 
@@ -31,7 +31,7 @@ The Locally-Exact Homogenization Theory (LEHT) is an analytical approach based o
 
 
 
-### 2. Finite-Volume Theory (FVT)
+## 🔲 Finite-Volume Theory (FVT)
 FVT is a numerical approach based on the spatial discretization of the RUC into subvolumes (finite volumes). To calculate the effective thermal conductivity from the obtained local fields, this repository offers **two distinct mathematical formulations**:
 
 * **Based on Mean-Field Theory:** In this formulation, homogenization is performed through the direct application of the volume averaging theorem. The effective conductivity is calculated by relating the volume average of the local heat fluxes to the average of the thermal gradients applied to the RUC.
