@@ -6,15 +6,12 @@ The models are designed for composites consisting of an isotropic matrix and cir
 
 ---
 
-## 🔬 Implemented Micromechanical Approaches
+## 𝒜. Analytical solution
 
 ### 1. Locally-Exact Homogenization Theory (LEHT)
-The LEHT is a highly accurate **analytical** approach. The method uses Fourier series expansions to construct the fluctuating local thermal fields as exact solutions to the governing differential equations. The LEHT formulation implemented in this repository is based on the concepts presented in: **DOI:** [https://doi.org/10.1016/j.ijheatmasstransfer.2020.119477].
+The Locally-Exact Homogenization Theory (LEHT) is an analytical approach based on the Trefftz concept, in which the local fields are represented by series expansions that satisfy the governing differential equations. The solution is obtained by imposing continuity conditions at the fiber–matrix interface and periodicity conditions on the unit cell. This methodology allows the effective thermal conductivity of materials with inclusions to be determined. The LEHT formulation implemented in this repository is based on the concepts presented in **DOI:** [https://doi.org/10.1016/j.ijheatmasstransfer.2020.119477].
 
-The main features of this formulation include:
-* **Exact Continuity:** Rigorously satisfies the continuity conditions of temperature and normal heat flux at the fiber-matrix interface.
-* **Periodicity:** Ensures the exact fulfillment of periodic boundary conditions at the limits of the Representative Unit Cell (RUC).
-* **Homogenization:** The effective thermal conductivity matrix is rigorously obtained by integrating the average heat flux across the RUC boundaries.
+### 2. Sintax
 
 ### 2. Finite-Volume Theory (FVT)
 FVT is a numerical approach based on the spatial discretization of the RUC into subvolumes (finite volumes). To calculate the effective thermal conductivity from the obtained local fields, this repository offers **two distinct mathematical formulations**:
